@@ -9,7 +9,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.powermock.api.mockito.PowerMockito.when;
+import static org.mockito.Mockito.when;
 
 @RunWith(AndroidJUnit4.class)
 @PrepareForTest(GetStaticValue.class)
